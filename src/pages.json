@@ -1,0 +1,1031 @@
+{
+  "easycom": {
+    "custom": {
+      "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        // #ifdef H5
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        // #endif
+        // #ifndef H5
+        "navigationBarTitleText": "",
+        // #endif
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/realHome/index",
+      "style": {
+        // #ifdef H5
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        // #endif
+        // #ifndef H5
+        "navigationBarTitleText": "",
+        // #endif
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#e51600",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/newCourse/index",
+      "style": {
+        "navigationBarTitleText": "课程",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#f9f9f9",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/wPage/index",
+      "style": {
+        "navigationBarTitleText": "微页面",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "page_common",
+      "pages": [
+        {
+          "path": "iframe/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "applySuccess/index",
+          "style": {
+            "navigationBarTitleText": "报名成功",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "applySuccess/dyLink2",
+          "style": {
+            "navigationBarTitleText": "报名成功",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "page_protocol",
+      "pages": [
+        {
+          "path": "signAgreement/index",
+          "style": {
+            "navigationBarTitleText": "签署协议",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "signFinish/index",
+          "style": {
+            "navigationBarTitleText": "签署协议",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "home",
+      "pages": [
+        {
+          "path": "shopping/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/douyinLogin",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "SelectSubject",
+          "style": {
+            "navigationBarTitleText": "选择科目",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/getMessageCode",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/checkMessageCode",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/passwordLogin",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/forgetPasswordStepOne",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/resetPassword",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "login/login",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "root": "course",
+      "pages": [
+        {
+          "path": "pages/addWechat",
+          "style": {
+            "navigationBarTitleText": "专属老师",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "chapter/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "videoUnit/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "business",
+      "pages": [
+        {
+          "path": "report/plan",
+          "style": {
+            "navigationBarTitleText": "制定学习计划",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "report/index",
+          "style": {
+            "navigationBarTitleText": "学习报告",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "information/index",
+          "style": {
+            "navigationBarTitleText": "考试资讯",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "disableScroll": false
+          }
+        },
+        {
+          "path": "brushQuestions/index",
+          "style": {
+            "navigationBarTitleText": "每日一练",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "brushQuestions/punchIn",
+          "style": {
+            "navigationBarTitleText": "打卡记录",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "brushQuestions/analysisList",
+          "style": {
+            "navigationBarTitleText": "每日一练解析",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "questionBank/index",
+          "style": {
+            "navigationBarTitleText": "题库练习",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "learnGroup/index",
+          "style": {
+            "navigationBarTitleText": "我的小组",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "selectExam/index",
+          "style": {
+            "navigationBarTitleText": "请选择您的考试",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "myRecords/index",
+          "style": {
+            "navigationBarTitleText": "我的记录",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "myRecords/wrongOrCollection",
+          "style": {
+            "navigationBarTitleText": "错题练习",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "myRecords/onlyCollection",
+          "style": {
+            "navigationBarTitleText": "收藏夹",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "integral/index",
+          "style": {
+            "navigationBarTitleText": "积分任务",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "integral/detail",
+          "style": {
+            "navigationBarTitleText": "积分明细",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "rankingList/index",
+          "style": {
+            "navigationBarTitleText": "本周排行榜",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "page_mockExam",
+      "pages": [
+        {
+          "path": "paperContent/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "paperExam/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "paperList/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF"
+          }
+        },
+        {
+          "path": "paperCover/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "paperReport/index",
+          "style": {
+            "navigationBarTitleText": "成绩单",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "page_material",
+      "pages": [
+        {
+          "path": "learnData/index",
+          "style": {
+            "navigationBarTitleText": "学习资料",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        },
+        // 监督投诉
+        {
+          "path": "complaint/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "agreement/index",
+          "style": {
+            "navigationBarTitleText": "我的协议",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "agreement/agreementDetail",
+          "style": {
+            "navigationBarTitleText": "协议",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/privacyAgreement",
+          "style": {
+            "navigationBarTitleText": "隐私协议",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/userAgreement",
+          "style": {
+            "navigationBarTitleText": "用户协议",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/addressManage",
+          "style": {
+            "navigationBarTitleText": "我的收货地址",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/pages/addAddress",
+          "style": {
+            "navigationBarTitleText": "新增收货地址",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/pages/editAddress",
+          "style": {
+            "navigationBarTitleText": "编辑收货地址",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "login/pages/reFillAddress",
+          "style": {
+            "navigationBarTitleText": "补填收货地址",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "outLinkPage/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "myInfo/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "myInfo/myName",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "myInfo/myCompany",
+          "style": {
+            "navigationBarTitleText": "请选择工作单位",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "disableScroll": true
+          }
+        },
+        {
+          "path": "myInfo/myPage",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#E5F1F9"
+          }
+        },
+        {
+          "path": "userCenter/exchange",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom",
+            "navigationBarTextStyle": "white"
+          }
+        },
+        {
+          "path": "userCenter/about",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "setUp/index",
+          "style": {
+            "navigationBarTitleText": "更多设置",
+            "navigationBarBackgroundColor": "#ffffffff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "setUp/secure",
+          "style": {
+            "navigationBarTitleText": "账号与安全",
+            "navigationBarBackgroundColor": "#ffffffff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "setUp/about",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#ffffffff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "setUp/businessLicense",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#ffffffff",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "othersPage/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#E5F1F9",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "myFans/index",
+          "style": {
+            "navigationBarTitleText": "我的粉丝",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "member/index",
+          "style": {
+            "navigationBarTitleText": "会员详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "member/question",
+          "style": {
+            "navigationBarTitleText": "常见问题",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "page_commodity",
+      "pages": [
+        {
+          "path": "order/pages/singleGoods",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/redirctPage",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "navigationStyle": "custom",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodity/comps/BuySkuList",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "certificateCommodity/pages/certificateReport",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "commodity/comps/SkuCart",
+          "style": {
+            "navigationBarTitleText": "已选明细",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/productMode",
+          "style": {
+            "navigationBarTitleText": "安全支付",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/userProtocol",
+          "style": {
+            "navigationBarTitleText": "学员服务条款",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodity/pages/commodityBank",
+          "style": {
+            // #ifdef H5
+            "navigationStyle": "custom",
+            // #endif
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodity/pages/commodityIntegral",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodity/pages/goArgeement",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodityList/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "wPage/index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "commodityAll/index",
+          "style": {
+            "navigationBarTitleText": "全部商品",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "certificateCommodity/pages/certificateList",
+          "style": {
+            "navigationBarTitleText": "我的证书",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "certificateCommodity/pages/certificateExam",
+          "style": {
+            "navigationBarTitleText": "证书考试",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "certificateCommodity/pages/certificateScore",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#5C6E8D",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "certificateCommodity/pages/certificateDetail",
+          "style": {
+            "navigationBarTitleText": "证书详情",
+            "navigationBarBackgroundColor": "#FAE4C2",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/index",
+          "style": {
+            "navigationBarTitleText": "我的订单",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "order/pages/orderIntegral",
+          "style": {
+            "navigationBarTitleText": "积分商城订单",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/orderDetails",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "order/pages/entityDetail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "order/pages/productAgreement",
+          "style": {
+            "navigationBarTitleText": "产品协议",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/collageDetail",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/buyOrder",
+          "style": {
+            "navigationBarTitleText": "订单支付",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/collageOrder",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "navigationBarBackgroundColor": "#F6F6F6",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/entityOrder",
+          "style": {
+            "navigationBarTitleText": "订单支付",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/integralBuyOrder",
+          "style": {
+            "navigationBarTitleText": "订单支付",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order/pages/consult",
+          "style": {
+            "navigationBarTitleText": "协商记录",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/index",
+          "style": {
+            "navigationBarTitleText": "我的课程",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/exchangeCourse",
+          "style": {
+            "navigationBarTitleText": "兑换课程",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/courseDetail",
+          "style": {
+            "navigationBarTitleText": "我的课程",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/CommodityCourse",
+          "style": {
+            "navigationBarTitleText": "课程列表",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/noReplay",
+          "style": {
+            "navigationBarTitleText": "回放",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/liveCourseDetail",
+          "style": {
+            "navigationBarTitleText": "我的课程",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/courseQuestion",
+          "style": {
+            "navigationBarTitleText": "练习模式",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            // "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "courseList/trialPracticeQuestions",
+          "style": {
+            "navigationBarTitleText": "试学练习模式",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "courseList/trialExamQuestions",
+          "style": {
+            "navigationBarTitleText": "试学考试题",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/questionType",
+          "style": {
+            "navigationBarTitleText": "考点练习筛选",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/skipTo",
+          "style": {
+            "navigationBarTitleText": "基础知识",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/download",
+          "style": {
+            "navigationBarTitleText": "下载",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "courseList/playback",
+          "style": {
+            "navigationBarTitleText": "回放",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "coupon/index",
+          "style": {
+            "navigationBarTitleText": "优惠券",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "coupon/scopeCommodity",
+          "style": {
+            "navigationBarTitleText": "适用商品",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "information/index",
+          "style": {
+            "navigationBarTitleText": "资讯详情",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "information/info",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "enablePullDownRefresh": false,
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "information/infoList",
+          "style": {
+            "navigationBarTitleText": "考试资讯",
+            "navigationBarBackgroundColor": "#F5F6FA",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F5F6FA",
+    "backgroundColor": "#F5F6FA"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#2C364E",
+    "selectedColor": "#2C364E",
+    "backgroundColor": "#ffffff",
+    "spacing": "5px",
+    "fontSize": "13px",
+    "iconWidth": "40px",
+    "iconHeight": "40px",
+    "height": "600px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/img/home/home.png",
+        "selectedIconPath": "static/img/home/home-active.png",
+        "text": "",
+        "iconWidth": "40px",
+        "iconHeight": "40px"
+      },
+      {
+        "pagePath": "pages/realHome/index",
+        "iconPath": "static/img/home/home.png",
+        "selectedIconPath": "static/img/home/home-active.png",
+        "text": "首页",
+        "iconWidth": "40px",
+        "iconHeight": "40px"
+      },
+      {
+        "pagePath": "pages/newCourse/index",
+        "iconPath": "static/img/home/course.png",
+        "selectedIconPath": "static/img/home/course-active.png",
+        "text": "我的课程",
+        "iconWidth": "40px",
+        "iconHeight": "40px"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/img/home/mine.png",
+        "selectedIconPath": "static/img/home/mine-active.png",
+        "text": "我的",
+        "iconWidth": "40px",
+        "iconHeight": "40px"
+      },
+      {
+        "pagePath": "pages/wPage/index",
+        "iconPath": "static/img/home/mine.png",
+        "selectedIconPath": "static/img/home/mine-active.png",
+        "text": "微页面",
+        "iconWidth": "40px",
+        "iconHeight": "40px"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+.hbuilderx
+.vscode-swan
+.local
+.output.js
+node_modules/**
+dist/*
+**/*.svg
+**/*.sh
+.*
+public/*
+src/static

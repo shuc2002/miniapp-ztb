@@ -1,0 +1,74 @@
+.info-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 32rpx;
+  background: #ffffff;
+  border-radius: 24rpx;
+}
+.info-header {
+  color: #333333;
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+.info-from {
+  margin-top: 24rpx;
+  color: #9fa1a4;
+  font-size: 28rpx;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  .info-val {
+    max-width: 500rpx;
+    color: #333333;
+  }
+}
+.info-action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.info-button {
+  display: flex;
+  min-width: 160rpx;
+  height: 64rpx;
+  margin-left: 16rpx;
+  padding: 20rpx 24rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  border: 2rpx solid #e5e6eb;
+  background: #ffffff;
+  border-radius: 72rpx;
+  color: #4e5969;
+}
+.info-active-button {
+  color: #e51600;
+  border: 2rpx solid #f7b2aa;
+  background: #fde8e6;
+}
+.disable-button {
+  color: #ffffff;
+  border: 2rpx solid #f6f6f6;
+  background: #f6f6f6;
+}
+.info-tips {
+  color: #9fa1a4;
+  font-size: 24rpx;
+  padding: 4rpx 8rpx;
+  border-radius: 8rpx;
+  background: #f7f8fa;
+  font-weight: 400;
+}
+.pass-tips {
+  color: #5e8d52;
+  background: #f1ffe8;
+}
+.warn-tips {
+  color: #ff7d00;
+  background: #fdf3f2;
+}
+.m-b24 {
+  margin-bottom: 24rpx;
+}

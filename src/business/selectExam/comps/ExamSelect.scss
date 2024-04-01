@@ -1,0 +1,75 @@
+.tree-select-contain {
+  height: calc(100vh - 200rpx);
+
+  .select-value {
+    display: flex;
+    height: 98rpx;
+    line-height: 45px;
+    padding: 0 16px;
+
+    .tab-item {
+      margin-right: 64rpx;
+
+      &:last-child {
+        margin-right: 0;
+        color: #475ffd;
+      }
+    }
+    .active-tab-item {
+      &::after {
+        content: '';
+        display: block; //块级元素
+        width: 32rpx;
+        height: 4rpx;
+        border-radius: 4rpx;
+        // background: #475ffd;
+        background: #e51600;
+        margin: auto;
+      }
+    }
+  }
+
+  .scroll-box {
+    height: calc(100% - 46px);
+    width: 100%;
+
+    &.width-per150 {
+      width: 150%;
+
+      .col {
+        width: 33.3333333%;
+
+        &:last-child {
+          border-right: none;
+          width: 33.3333333%;
+          background-color: #f5f6fa;
+        }
+      }
+    }
+    &.width-per200 {
+      width: 200%;
+
+      .col {
+        width: 25%;
+
+        &:last-child {
+          border-right: none;
+          width: 25%;
+          background-color: #f5f6fa;
+        }
+      }
+    }
+    .col {
+      height: 100%;
+      float: left;
+      width: 50%;
+      border-right: 1px solid #e9e9e9;
+      box-sizing: border-box;
+      &:last-child {
+        border-right: none;
+        width: calc(50% - 16px);
+        background-color: #f5f6fa;
+      }
+    }
+  }
+}

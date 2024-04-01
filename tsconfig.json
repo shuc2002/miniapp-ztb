@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,                  /** 在表达式和声明上有隐含的 any类型时报错*/
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve", 
+    "allowJs":true,
+    "importHelpers": true,                   /** 从 tslib 导入辅助工具函数（比如 __extends， __rest等）*/
+    "moduleResolution": "node",              /** 决定如何处理模块。或者是"Node"对于Node.js/io.js，或者是"Classic"（默认）*/
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,    /** 允许从没有设置默认导出的模块中默认导入*/
+    "experimentalDecorators": true,          /** 启用实验性的ES装饰器。*/
+    "sourceMap": true,
+    "skipLibCheck": true,                    /** 忽略所有的声明文件（ *.d.ts）的类型检查。*/
+    "baseUrl": ".",
+    "types": [
+      "webpack-env",
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "mini-types"
+    ],
+    "typeRoots": ["node_modules/@dcloudio/types","./types"],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [  
+		"src/**.ts",  
+		"src/*.ts",                                     
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx", "src/api/request/httpRequest.ts",
+  ],
+  "exclude": ["node_modules", "dist", "**/*.js","**/*.md","src/**/*.vue"]
+}

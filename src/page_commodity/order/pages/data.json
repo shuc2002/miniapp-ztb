@@ -1,0 +1,94 @@
+{
+    "activityType": 0,
+    "deleted": 0,
+    "detail": "test",
+    "id": "MER00000065",
+    "images": [
+        "123123"
+    ],
+    "integral": 0.00,
+    "linePrice": 59.90,
+    "name": "法律法规 高频易错111",
+    "payType": 0,
+    "price": 39.90,
+    "products": [
+        {
+            "id": "PROD100000088",
+            "name": "test01",
+            "subjectName": "初级金融专业知识与实务"
+        }
+    ],
+    "projectId": "10427",
+    "salesVolume": 0,
+    "sellOut": false,
+    "sellingPoint": "no",
+    "skuList": [
+        {
+            "allowIntegral": 0,
+            "integralPrice": 0.00,
+            "discount": "9.0",
+            "linePrice": 10,
+            "price": 1.00,
+            "skuCode": "0:0",
+            "skuId": "92573475991420933",
+            "timeLimit": 1,
+            "timeType": 1
+        },
+        {
+            "allowIntegral": 0,
+            "discount": "8.0",
+            "integralPrice": 0.00,
+            "linePrice": 100,
+            "price": 5.00,
+            "skuCode": "0:1",
+            "skuId": "92573475991420934",
+            "timeLimit": 3,
+            "timeType": 1
+        },
+         {
+            "allowIntegral": 0,
+            "discount": "7.0",
+            "integralPrice": 0.00,
+            "linePrice": 100,
+            "price": 5.00,
+            "skuCode": "0:1",
+            "skuId": "92573475991420935",
+            "timeLimit": 6,
+            "timeType": 1
+        },
+         {
+            "allowIntegral": 0,
+            "discount": "6.0",
+            "integralPrice": 0.00,
+            "linePrice": 100,
+            "price": 5.00,
+            "skuCode": "0:1",
+            "skuId": "92573475991420936",
+            "timeLimit": 12,
+            "timeType": 1
+        }
+    ],
+    "skuOptions": [
+        {
+            "index": 0,
+            "name": "班级性质",
+            "type": 0,
+            "values": [
+                "冲刺班",
+                "精讲班"
+            ]
+        },
+        {
+            "index": 1,
+            "name": "使用期限",
+            "type": 1,
+            "values": [
+                "1个月月",
+                "12个月月"
+            ]
+        }
+    ],
+    "status": 0,
+    "thumbnail": "123456",
+    "type": 1
+}

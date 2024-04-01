@@ -1,0 +1,170 @@
+// 题目轮播 start
+.option-box {
+  display: flex;
+  align-items: center;
+  margin-top: 48rpx;
+
+  &:first-child {
+    margin-top: 40rpx;
+  }
+}
+
+.question-swiper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  .question-swiper-box {
+    flex: 1;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .question-swiper-item {
+    padding: 48rpx 32rpx;
+    height: 100%;
+  }
+}
+
+// 题目轮播 end
+
+.checkbox {
+  color: #475ffd;
+
+  .checkbox-optionName {
+    background-color: #f5f6fa;
+    color: #475ffd;
+    border: 2rpx solid #475ffd;
+  }
+}
+
+.radio {
+  color: #475ffd;
+
+  .radio-optionName {
+    background-color: #475ffd;
+    color: #fff;
+  }
+}
+
+.no-select {
+  .radio-optionName,
+  .checkbox-optionName {
+    background: #f5f6fa;
+    color: #5b648d;
+  }
+}
+
+.checkbox-optionName {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 24rpx;
+  margin-right: 24rpx;
+  flex-shrink: 0;
+}
+
+.radio-optionName {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 80rpx;
+  margin-right: 24rpx;
+  flex-shrink: 0;
+}
+//选项 end
+
+.confirm-btn {
+  width: 654rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  border-radius: 24rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 160rpx;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.answer-box {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  color: #5b648d;
+  background-color: #f5f6fa;
+  border: 1rpx solid #f5f6fa;
+  flex-shrink: 0;
+  margin: 24rpx 16rpx 8rpx 12rpx;
+}
+
+.answer-box-active {
+  color: #475ffd;
+  border: 2rpx solid #475ffd;
+  background: #dae2ff;
+}
+
+.anwser-sheept {
+  height: 400rpx;
+  overflow-y: scroll;
+  margin: 80rpx 42rpx;
+}
+
+.anwser-sheept-width {
+  width: 92vw;
+  height: 400rpx;
+  overflow-y: scroll;
+  margin: 80rpx 42rpx;
+}
+
+.question-body {
+  min-height: 700rpx;
+  overflow-y: scroll;
+  padding-bottom: 48rpx;
+  box-shadow: 0 12px 20px -12px #f5f6fa inset;
+}
+
+.question-analysis {
+  flex: 1;
+  padding-bottom: 100rpx;
+  /* #ifdef H5 */
+  padding-bottom: 134rpx;
+  /* #endif */
+  background-color: #f5f6fa;
+}
+// 选项 start
+.option-right {
+  color: #5cc9a5;
+
+  .radio-optionName,
+  .checkbox-optionName {
+    background: #5cc9a5;
+    color: #fff;
+  }
+}
+
+.option-error {
+  color: #ff6c56;
+
+  .radio-optionName,
+  .checkbox-optionName {
+    background: #ff6c56;
+    color: #fff;
+  }
+}
+
+.option-right-plain {
+  background: rgb(92 201 165 / 20%);
+  color: #5cc9a5;
+  border: 1rpx solid #5cc9a5;
+}
+
+.option-error-plain {
+  background: rgb(240 82 47 / 20%);
+  color: #f0522f;
+  border: 1rpx solid #f0522f;
+}

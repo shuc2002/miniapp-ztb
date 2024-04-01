@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
+
+[ -n "$CI" ] && exit 0
+
+# Format and submit code according to lintstagedrc.js configuration
+
+echo "🍀🍀🍀:【zdwx】开始检查书写规范"
+npm run lint:lint-staged 
+echo "🌻🌻🌻: 检查完成，存在问题及时修改再push"
+git add .

@@ -1,0 +1,16 @@
+src/static
+*.sh
+node_modules
+*.md
+*.woff
+*.ttf
+.vscode-swan
+.idea
+dist
+public
+docs
+.husky
+.local
+bin
+src/uni_modules
+src/api
